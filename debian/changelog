@@ -1,0 +1,685 @@
+libdatetime-perl (2:1.54-1) unstable; urgency=medium
+
+  * New upstream version 1.54
+  * d/control:
+    - Use my Debian email address
+  * d/copyright:
+    - Add myself to Debian copyright stanza
+
+ -- Nick Morrott <nickm@debian.org>  Fri, 01 Jan 2021 22:56:08 +0000
+
+libdatetime-perl (2:1.53-1) unstable; urgency=medium
+
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+  * Import upstream version 1.53.
+  * Bump versioned (test) dependency on libdatetime-timezone-perl.
+  * Declare compliance with Debian Policy 4.5.1.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 18 Nov 2020 20:50:56 +0100
+
+libdatetime-perl (2:1.52-1) unstable; urgency=medium
+
+  * debian/copyright: replace tabs with spaces / remove trailing
+    whitespace.
+  * debian/control: update Build-Depends for cross builds.
+  * Import upstream version 1.52.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 07 Mar 2020 19:10:30 +0100
+
+libdatetime-perl (2:1.51-1) unstable; urgency=medium
+
+  [ Xavier Guimard ]
+  * Email change: Xavier Guimard -> yadd@debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 1.51.
+  * Update years of upstream and packaging copyright.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.0.
+  * Drop unneeded version constraints from (build) dependencies.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 22 Jul 2019 17:27:42 -0300
+
+libdatetime-perl (2:1.50-1) unstable; urgency=medium
+
+  * Import upstream version 1.50
+  * Declare compliance with policy 4.1.5
+  * Update debian/copyright years
+  * Add CODE_OF_CONDUCT.md in docs
+  * Switch homepage to https://github.com/houseabsolute/DateTime.pm/wiki
+  * Add "Multi-Arch: same"
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sun, 05 Aug 2018 08:04:13 +0200
+
+libdatetime-perl (2:1.49-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.1.4
+  * Import upstream version 1.49
+
+ -- Xavier Guimard <x.guimard@free.fr>  Wed, 23 May 2018 21:06:56 +0200
+
+libdatetime-perl (2:1.48-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Xavier Guimard ]
+  * New upstream release
+
+ -- Xavier Guimard <x.guimard@free.fr>  Tue, 27 Mar 2018 07:06:18 +0200
+
+libdatetime-perl (2:1.46-1) unstable; urgency=medium
+
+  * Import upstream version 1.46.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 14 Feb 2018 20:05:46 +0100
+
+libdatetime-perl (2:1.45-1) unstable; urgency=medium
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ gregor herrmann ]
+  * Import upstream version 1.45.
+  * Update years of packaging copyright.
+  * Make (build) dependency on libparams-validationcompiler-perl
+    versioned.
+  * Declare compliance with Debian Policy 4.1.3.
+  * Let cme fix a versioned alternative build dependency.
+  * Update debian/tests/pkg-perl/syntax-skip.
+    Drop one fail, update error messages for another.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 03 Jan 2018 21:11:11 +0100
+
+libdatetime-perl (2:1.44-1) unstable; urgency=medium
+
+  * New upstream version 1.44
+  * Declare compliance with Debian Policy 4.1.0
+  * Bump debhelper compatibility version to 10
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sat, 26 Aug 2017 03:02:11 +0100
+
+libdatetime-perl (2:1.43-1) unstable; urgency=medium
+
+  * Import upstream version 1.43.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.0.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 02 Aug 2017 21:12:12 -0400
+
+libdatetime-perl (2:1.42-1) unstable; urgency=medium
+
+  * Import upstream version 1.42.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 26 Dec 2016 03:54:31 +0100
+
+libdatetime-perl (2:1.41-1) unstable; urgency=medium
+
+  * Import upstream version 1.41
+  * Refresh d/u/metadata
+  * Add Datetime/Duration.pm to d/t/p/syntax-skip
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 17 Nov 2016 21:23:42 +0000
+
+libdatetime-perl (2:1.39-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Remove Antonio Radici from Uploaders. Thanks for your work!
+  * Remove Iulian Udrea from Uploaders. Thanks for your work!
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Ryan Niebur from Uploaders. Thanks for your work!
+
+  [ Nick Morrott ]
+  * Import upstream version 1.39
+  * Refresh (build-) dependencies
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 11 Oct 2016 03:30:09 +0100
+
+libdatetime-perl (2:1.36-1) unstable; urgency=medium
+
+  * Import upstream version 1.36
+  * Refresh (build-) dependencies
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 09 Aug 2016 01:11:13 +0100
+
+libdatetime-perl (2:1.35-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Remove Franck Joncourt from Uploaders.
+    Thanks to Tobias Frost (Closes: #831295)
+
+  [ Nick Morrott ]
+  * Import upstream version 1.35
+  * Refresh (build-) dependencies
+  * Add myself to Uploaders
+  * Add DateTime.pm to d/t/p/syntax-skip
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sat, 06 Aug 2016 20:35:51 +0100
+
+libdatetime-perl (2:1.34-1) unstable; urgency=medium
+
+  * Import upstream version 1.34.
+  * Add missing epoch to libdatetime-locale-perl (build) dependency.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 07 Jul 2016 19:14:58 +0200
+
+libdatetime-perl (2:1.33-1) unstable; urgency=medium
+
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Import upstream version 1.33.
+  * Update debian/upstream/metadata (GitHub URLs).
+  * Update (build) dependencies.
+  * Ignore a file for autopkgtest's syntax test.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 01 Jul 2016 18:07:52 +0200
+
+libdatetime-perl (2:1.27-1) unstable; urgency=medium
+
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: change GitHub/CPAN URL(s) to HTTPS.
+  * Import upstream version 1.27.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 21 May 2016 17:33:44 +0200
+
+libdatetime-perl (2:1.26-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 1.26
+  * Update debian/upstream/metadata
+  * Update years of upstream copyright
+  * Update Debian packaging copyright
+  * Declare compliance with Debian policy 3.9.8
+  * debian/control: update build and runtime dependencies
+  * debian/rules: export DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow
+  * debian/copyright: remove c/ppport.h, does not exist anymore
+
+  [ gregor herrmann ]
+  * debian/copyright: add new ppport.h.
+  * Install new CONTRIBUTING document.
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Wed, 11 May 2016 13:38:41 -0300
+
+libdatetime-perl (2:1.21-1) unstable; urgency=medium
+
+  * Import upstream version 1.21
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 17 Oct 2015 21:36:49 +0200
+
+libdatetime-perl (2:1.20-1) unstable; urgency=medium
+
+  * Import upstream version 1.20.
+  * Make (build) dependency on libparams-validate-perl versioned.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 04 Jul 2015 18:47:03 +0200
+
+libdatetime-perl (2:1.19-1) unstable; urgency=medium
+
+  * Drop debian/tests/control, add Testsuite field to debian/control
+    instead.
+  * Import upstream version 1.19
+  * Update years of copyright.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Build-depend on Test::More 0.96.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 01 Jun 2015 18:19:14 +0200
+
+libdatetime-perl (2:1.12-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Imported Upstream version 1.12
+  * Add autopkgtest control file.
+  * Make (build) dependency on libdatetime-timezone-perl versioned.
+  * Explicitly build-depend on libmodule-build-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 07 Sep 2014 16:51:40 +0200
+
+libdatetime-perl (2:1.10-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 May 2014 17:31:39 +0200
+
+libdatetime-perl (2:1.08-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/control: remove Nicholas Bamber from Uploaders on request of
+    the MIA team.
+  * Strip trailing slash from metacpan URLs.
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 1.08
+
+ -- Xavier Guimard <x.guimard@free.fr>  Fri, 21 Mar 2014 06:22:16 +0100
+
+libdatetime-perl (2:1.07-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 14 Feb 2014 22:06:18 +0100
+
+libdatetime-perl (2:1.06-1) unstable; urgency=medium
+
+  * New upstream release.
+    Fixes "FTBFS on powerpcspe because floating point is too precise"
+    (Closes: #729672)
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 01 Jan 2014 22:44:01 +0100
+
+libdatetime-perl (2:1.05-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 27 Dec 2013 21:28:35 +0100
+
+libdatetime-perl (2:1.04-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 09 Dec 2013 22:27:48 +0100
+
+libdatetime-perl (2:1.03-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 1.0300
+  * debian/copyright
+    + update years
+    + re-order debian contributors
+    + use Artistic-2.0 text provided by dh-make-perl
+  * Add libtry-tiny-perl in dependencies
+  * Remove the two extra digits in version (see RT#82800).
+
+ -- Xavier Guimard <x.guimard@free.fr>  Wed, 01 May 2013 21:15:28 +0200
+
+libdatetime-perl (2:0.7800-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop (build) dependency on libmath-round-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 09 Dec 2012 15:58:46 +0100
+
+libdatetime-perl (2:0.7700-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders
+  * Bump Standards-Version to 3.9.4 (no changes needed)
+
+ -- Alessandro Ghedini <ghedo@debian.org>  Mon, 08 Oct 2012 11:03:42 +0200
+
+libdatetime-perl (2:0.7600-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Xavier Guimard ]
+  * New upstream release 0.7600
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sun, 08 Jul 2012 07:36:37 +0200
+
+libdatetime-perl (2:0.7500-1) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * New upstream release 0.7400
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+
+ -- Alessandro Ghedini <ghedo@debian.org>  Mon, 11 Jun 2012 20:30:45 +0200
+
+libdatetime-perl (2:0.7300-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * Bump Standards-Version to 3.9.3 (no changes).
+  * Build-depend on 9.20120312 to get all hardening flags.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 18 Mar 2012 18:17:50 +0100
+
+libdatetime-perl (2:0.7200-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * Build-Depends: replace libtest-exception-perl with libtest-fatal-perl.
+  * Switch to debhelper compatibility level 9 to pass CFLAGS to
+    Makefile.PL/Build.PL.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 18 Jan 2012 20:28:40 +0100
+
+libdatetime-perl (2:0.7000-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Sat, 14 May 2011 11:01:22 +0100
+
+libdatetime-perl (2:0.6900-1) unstable; urgency=low
+
+  [ Nicholas Bamber ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * Switch order of alternative (build) dependencies after the perl 5.12
+    upload.
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Thu, 05 May 2011 18:30:58 +0100
+
+libdatetime-perl (2:0.6700-1) unstable; urgency=low
+
+  * New upstream release
+  * Reviewed dependencies
+  * Updated copyright
+  * Added libmath-round-perl as a dependency
+  * Raised standards version to 3.9.2
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Mon, 25 Apr 2011 13:38:55 +0100
+
+libdatetime-perl (2:0.6600-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release
+  * Refresh debian/copyright file.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Mon, 01 Nov 2010 11:16:36 +0100
+
+libdatetime-perl (2:0.6500-1) unstable; urgency=low
+
+  [ Nicholas Bamber ]
+  * New upstream release
+  * Updated depedencies
+
+  [ Ansgar Burchardt ]
+  * debian/copyright: Refer to "Debian systems" instead of "Debian GNU/Linux
+    systems".
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Wed, 27 Oct 2010 20:49:38 +0100
+
+libdatetime-perl (2:0.6300-1) unstable; urgency=low
+
+  * Added myself to Uploaders and copyright
+  * New upstream release
+  * Moved Priority from 'extra' to 'optional'
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Sun, 03 Oct 2010 11:23:55 +0100
+
+libdatetime-perl (2:0.6100-2) unstable; urgency=low
+
+  * Fix versioned runtime dependency on libdatetime-locale-perl, thanks to
+    Dominic Hargreaves for the bug report (closes: #591006).
+  * Set Standards-Version to 3.9.1.
+  * debian/copyright: point to /usr/share/common-licenses/GPL-1.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 30 Jul 2010 17:27:29 -0400
+
+libdatetime-perl (2:0.6100-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added /me to Uploaders (refreshed d.control and d.copyright accordingly).
+  * Added missing comma in the BD field.
+
+ -- Franck Joncourt <franck@debian.org>  Sat, 17 Jul 2010 13:58:59 +0200
+
+libdatetime-perl (2:0.6000-1) UNRELEASED; urgency=low
+
+  IGNORE-VERSION: 2:0.6000-1
+  Removes build-dep on newer Module::Build.
+
+  * New upstream release (0.60).
+  * Remove build-dep on libmodule-build-perl (>= 0.360100): the new release no
+    longer requires a specific version.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sun, 04 Jul 2010 12:19:20 +0900
+
+libdatetime-perl (2:0.5900-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop patch fix-pod-spelling.patch: applied upstream.
+  * Bump build-dep on libmodule-build-perl to >= 0.360100.
+    perl (>= 5.12) can be added as an alternative once #586275 is fixed.
+  * debian/copyright: Update copyright information.
+  * Bump Standards-Version to 3.9.0 (no changes).
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Fri, 02 Jul 2010 00:37:10 +0900
+
+libdatetime-perl (2:0.5500-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * Remove libdatetime-format-strptime-perl from Build-Depends, as this
+    package depends on libdatetime-perl, thereby causing a circular build
+    dependency; thanks to Niko Tyni for spotting (closes: #574763).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 21 Mar 2010 01:54:52 +0100
+
+libdatetime-perl (2:0.5400-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version 3.8.4 (no changes)
+  * Update dependencies per upstream
+    + Test::Simple 0.88
+    + DateTime::TimeZone 1.09
+  * Update copyright information
+  * Use new 3.0 (quilt) source format
+  * Add a patch to fix POD spelling errors
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sun, 14 Mar 2010 19:19:18 -0400
+
+libdatetime-perl (2:0.5200-1) unstable; urgency=low
+
+  * New upstream release
+  * Test-Pod and Test-Pod-Coverage are now moved to xt/
+  * Refresh copyright and control files
+  * Removed RELEASE_TESTING override, no longer needed
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 05 Dec 2009 16:48:14 -0500
+
+libdatetime-perl (2:0.5100-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Add myself to Uploaders and Copyright
+  * Rewrite control description
+  * Rearrange control fields to conform to other packages
+  * Standards-Version 3.8.3 (drop perl version dep)
+  * Use new short debhelper rules format
+  * Refreshed copyright information
+  * Use dh 7.0.50 + override to run maintainer tests
+
+  [ Ryan Niebur ]
+  * New upstream release
+  * Update ryan52's email address
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Iulian Udrea ]
+  * debian/control:
+    - Bump Standards-Version to 3.8.2; no changes required.
+    - Add myself to the uploaders list.
+
+  [ gregor herrmann ]
+  * debian/copyright: reflect the new location of ppport.h.
+  * debian/control: this package now needs Module::Build at build time.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Tue, 03 Nov 2009 20:13:25 -0500
+
+libdatetime-perl (2:0.4900-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders
+  * Debian Policy 3.8.1
+  * add build dep on libdatetime-format-strptime-perl and
+    libtest-warn-perl for the tests
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Thu, 07 May 2009 23:53:52 -0700
+
+libdatetime-perl (2:0.4700-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Antonio Radici <antonio@dyne.org>  Tue, 03 Mar 2009 23:41:02 +0000
+
+libdatetime-perl (2:0.4600-2) unstable; urgency=low
+
+  * Remove build dependency on libdatetime-format-strptime-perl which was
+    introduced in -1: the cyclic dependency breaks builds. Thanks to Luk Claes
+    for the bug report (closes: #517907).
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 02 Mar 2009 22:11:06 +0100
+
+libdatetime-perl (2:0.4600-1) unstable; urgency=low
+
+  [ Antonio Radici ]
+  * New upstream release
+  * debian/control:
+    + adding me to the Uploaders
+    + added debhelper dependency (>= 7)
+    + added ${shlibs:Depends} and ${perl:Depends} to the binary package
+  * debian/compat bumped to 7
+  * debian/copyright:
+    + switched to the new format
+    + added all debian/* contributors
+
+  [ Damyan Ivanov ]
+  * Take over for the Debian Perl Group on maintainer's request
+    (http://lists.debian.org/debian-perl/2008/09/msg00111.html)
+
+  [ Gunnar Wolf ]
+  * Standards-version -> 3.8.0 (no changes needed)
+  * Switched the build system from Yada to the pkg-perl group's usual
+
+  [ gregor herrmann ]
+  * debian/watch: add uversionmangle, just in case upstream switches back to
+    two-digit minor versions.
+  * debian/control:
+    - switch Vcs-Browser field to ViewSVN
+    - add ${misc:Depends} to Depends: field
+    - add libdatetime-format-strptime-perl, libtest-pod-perl,
+      libtest-pod-coverage-perl to Build-Depends in order to enable additional
+      tests.
+  * debian/copyright: add information about third-party copyright holders for
+    two files.
+
+ -- Antonio Radici <antonio@dyne.org>  Sun, 01 Mar 2009 12:58:28 +0000
+
+libdatetime-perl (2:0.42-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Mon, 12 May 2008 17:11:59 +0200
+
+libdatetime-perl (2:0.41-1) unstable; urgency=low
+
+  * New upstream release.
+    - Depends: libdatetime-locale-perl (>= 1:0.35).
+
+ -- Piotr Roszatycki <dexter@debian.org>  Sun, 18 Nov 2007 20:47:19 +0100
+
+libdatetime-perl (2:0.40-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/packages:
+    - Depends: libdatetime-locale-perl (>= 0.34)
+    - Depends: libdatetime-timezone-perl (>= 1:0.59)
+    - Removed depends: libclass-factory-util-perl
+
+ -- Piotr Roszatycki <dexter@debian.org>  Mon, 10 Sep 2007 12:24:45 +0200
+
+libdatetime-perl (2:0.35-1) unstable; urgency=low
+
+  * New upstream release. Closes: #397532.
+  * Applied non-maintainer fixes:
+    - Closes #355982: FTBFS: Failed 1/36 test scripts.
+  * debian/packages:
+    - Depends: libdatetime-timezone-perl (>= 1:0.38).
+    - Depends: libparams-validate-perl (>= 0.76).
+    - Depends: libdatetime-locale-perl (>= 0.31).
+
+ -- Piotr Roszatycki <dexter@debian.org>  Wed, 15 Nov 2006 10:18:34 +0100
+
+libdatetime-perl (1:0.2901-1) unstable; urgency=low
+
+  * New upstream release. Closes: #314939.
+  * debian/packages:
+    - Depends: libdatetime-locale-perl (>= 0.21)
+    - Depends: libparams-validate-perl (>= 0.76). Closes: #306831.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Mon, 18 Jul 2005 16:43:01 +0200
+
+libdatetime-perl (1:0.22-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Mon,  9 Aug 2004 11:35:17 +0200
+
+libdatetime-perl (0.2101-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Piotr Roszatycki <dexter@debian.org>  Thu,  1 Jul 2004 12:31:34 +0200
+
+libdatetime-perl (0.1901-1) unstable; urgency=low
+
+  * New upstream release.
+  * Depends on versioned libparams-validate-perl, closes: #232407.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Sun, 22 Feb 2004 14:52:54 +0100
+
+libdatetime-perl (0.1705-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Fri, 31 Oct 2003 21:21:42 +0100
+
+libdatetime-perl (0.1601-2) unstable; urgency=low
+
+  * Build with yada 0.18, closes: #205835.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Tue, 19 Aug 2003 17:03:46 +0200
+
+libdatetime-perl (0.1601-1) unstable; urgency=low
+
+  * Initial Debian version.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Mon, 11 Aug 2003 23:23:38 +0200

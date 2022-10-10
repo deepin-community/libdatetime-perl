@@ -1,0 +1,17 @@
+# String found where operator expected at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2062, near "carp 'You passed a locale to the set() method.'"
+#   (Do you need to predeclare carp?)
+# syntax error at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2062, near "carp 'You passed a locale to the set() method.'"
+#
+# -and-
+#
+# Type of arg 1 to Try::Tiny::catch must be block or sub {} (not reference constructor) at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2173, near "};"
+# Type of arg 1 to Try::Tiny::try must be block or sub {} (not reference constructor) at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2173, near "};"
+# Type of arg 1 to Try::Tiny::catch must be block or sub {} (not reference constructor) at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2237, near "};"
+# Type of arg 1 to Try::Tiny::try must be block or sub {} (not reference constructor) at /usr/lib/x86_64-linux-gnu/perl5/5.26/DateTime.pm line 2237, near "};"
+#
+# See https://rt.cpan.org/Public/Bug/Display.html?id=115983
+DateTime.pm
+
+# needs Dist::CheckConflicts, but this doesn't make lots of sense at runtime
+# alternatively we could just not install DateTime/Conflicts.pm ...  
+DateTime/Conflicts.pm
