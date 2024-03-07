@@ -1,3 +1,52 @@
+libdatetime-perl (2:1.65-1) unstable; urgency=medium
+
+  * New upstream version 1.65
+  * d/control:
+    - Declare compliance with Debian Policy 4.6.2
+    - Drop version constraint for libdatetime-timezone-perl
+  * d/copyright:
+    - Update years of upstream copyright
+    - Update years of Debian copyright
+
+ -- Nick Morrott <nickm@debian.org>  Sat, 24 Feb 2024 14:54:28 +0000
+
+libdatetime-perl (2:1.59-1) unstable; urgency=medium
+
+  * Import upstream version 1.59.
+    Fixes "libdatetime-perl ftbfs with new libdatetime-locale-perl"
+    (Closes: #1025882)
+  * Declare compliance with Debian Policy 4.6.1.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Dec 2022 17:24:35 +0100
+
+libdatetime-perl (2:1.57-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libdatetime-perl: Drop Multi-Arch: same.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 16:38:53 +0000
+
+libdatetime-perl (2:1.57-1) unstable; urgency=medium
+
+  * New upstream version 1.57
+  * d/control:
+    - Add libtest-without-module-perl to B-D
+  * d/copyright:
+    - Refresh years of upstream and Debian copyright
+
+ -- Nick Morrott <nickm@debian.org>  Thu, 24 Mar 2022 04:29:57 +0000
+
+libdatetime-perl (2:1.55-1) unstable; urgency=medium
+
+  * Import upstream version 1.55.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Drop unneeded version constraints from (build) dependencies,
+    and ancient Breaks.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 26 Dec 2021 19:58:23 +0100
+
 libdatetime-perl (2:1.54-1) unstable; urgency=medium
 
   * New upstream version 1.54

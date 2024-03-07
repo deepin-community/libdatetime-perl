@@ -43,6 +43,7 @@ Davis
 Domini
 Doug
 Duration
+Dyck
 EEEE
 EEEEE
 Etheridge
@@ -63,6 +64,7 @@ Howarth
 IEEE
 Iain
 Infinite
+James
 Jason
 Joshua
 Karen
@@ -99,6 +101,7 @@ Postgres
 Precious
 QQQ
 QQQQ
+Raspass
 Rata
 Ricardo
 Richard
@@ -167,6 +170,7 @@ iCal
 jhoblitt
 ji
 jmac
+jraspass
 lib
 madcityzen
 mark
@@ -191,6 +195,7 @@ rjbs
 rkhill
 sexagesimal
 subclasses
+tidyable
 uu
 viviparous
 vvvv

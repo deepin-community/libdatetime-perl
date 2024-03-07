@@ -10,6 +10,8 @@ use Test::Fatal;
 
 use DateTime;
 
+undef $ENV{PERL_DATETIME_DEFAULT_TZ};
+
 {
 
     # Tests creating objects from epoch time
@@ -22,6 +24,11 @@ use DateTime;
     is( $t1->day,    1,    'days are correct on epoch 0' );
     is( $t1->month,  1,    'months are correct on epoch 0' );
     is( $t1->year,   1970, 'year is correct on epoch 0' );
+
+    is(
+        DateTime->from_epoch(0), $t1,
+        'passing one arg (0) to from_epoch returns expected result'
+    );
 }
 
 {
@@ -52,6 +59,11 @@ use DateTime;
     );
     is( $epochtest->hour, 18, 'hour' );
     is( $epochtest->min,  3,  'minute' );
+
+    is(
+        DateTime->from_epoch(997121000), $epochtest,
+        'passing one arg (997121000) to from_epoch returns expected result'
+    );
 }
 
 {
@@ -205,6 +217,11 @@ use DateTime;
     $time = Number::Overloaded->new(12345.1234);
     $dt   = DateTime->from_epoch( epoch => $time );
     is( $dt->epoch, 12345, 'decimal epoch in overloaded object' );
+
+    is(
+        DateTime->from_epoch($time), $dt,
+        'passing one arg (object with number overload) to from_epoch returns expected result'
+    );
 }
 
 {
